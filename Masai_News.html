@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #conta {
+            background-color: aliceblue;
+            height: 570px;
+            width: 100%;
+        }
+        #container {
+            width: 60%;
+            height: 350px;
+            display: flex;
+            gap: 60px;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #container > div {
+            width: 30%;
+            height: 100%;
+            border-radius: 9px;
+            box-shadow: 3px 3px 6px 6px rgb(218, 218, 218);
+            background-color: white;
+        }
+        h1 {
+            text-align: center;
+            padding: 30px;
+        }
+        #container>div>img {
+            width: 70%;
+            height: 40%;
+            padding: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            /* margin-right: auto; */
+        }
+        #container>div>p{
+            margin-left: 9px;
+            word-wrap: normal;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        h4 {
+            color: rgb(5, 183, 183);
+            margin-left: 15px;
+        }
+        button {
+            padding: 12px;
+            color: red;
+            border: 1px solid red;
+            background-color: aliceblue;
+            border-radius: 10px;
+            margin-left: 47%;
+            margin-top: 20px;
+        }
+        #investers {
+            /* border: 1px solid rgb(70, 69, 69); */
+            border-radius: 10px;
+            display: flex;
+            height: 80%;
+            width: 80%;
+            margin-left: 130px;
+            margin-right: 130px;
+            column-gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="conta">
+        <h1>Masai In The News </h1>
+        <div id="container">
+            <div>
+                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ET_3754cc10ec.png" alt="">
+                <h4>21 Dec 2021</h4>
+                <p><strong>Masai School acquires data analytics firm Prepleaf for $1 million</strong></p>
+                <p>With their latest acquisition, Masai moves one step closer of becomin...</p>
+            </div>
+            <div>
+                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/money_Control_c3e25f5ceb.png" alt="">
+                <h4>26 Oct 2021</h4>
+                <p><strong>Kunal Shah, Vijay Shekhar Sharma, Amrish Rau among 21 angel investors in Masai School</strong></p>
+                <p>Masai School is aiming to expand to 20 smaller cities by march 2022 ...</p>
+            </div>
+            <div>
+                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vccircle_6ef779c958.png" alt="">
+                <h4>18 Aug 2020</h4>
+                <p><strong>Unitus Ventures leads pre-series A funding for coding-focussed Masai School</strong></h4>
+                <p>Software coding platform Masai School has raised $2.5 million (Rs...</p>
+            </div>
+        </div>
+        <button>SEE MORE ></button>
+    </div>
+    <div>
+        <h1>Our Investors, Who Believe In Us</h1>
+        <div id="investers">
+            <div>
+                <img src="https://www.masaischool.com/img/our-investors/unitus.svg" alt="">
+            </div>
+            <div>
+                <img src="https://www.masaischool.com/img/our-investors/omidyar.svg" alt="">
+            </div>
+            <div>
+                <img src="https://www.masaischool.com/img/our-investors/indiaQuotient.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
